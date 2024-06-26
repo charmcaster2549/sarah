@@ -1,0 +1,33 @@
+.parent{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background: skyblue;
+}
+
+.top
+{
+    height: 25%;
+    width: 100%;
+    background: chartreuse;
+}
+
+.right{
+    width: 75%;
+    height: 100%;
+    background: darkcyan;
+}
+
+.left{
+    height: 100%;
+    width: 25%;
+    background-color: blueviolet;
+}
+
+.bot{
+    height: 75%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}

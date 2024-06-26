@@ -1,0 +1,248 @@
+#imgprof{
+    height: 84%;
+}
+
+.nameprofbox{
+    display: flex;
+    height: 80%;
+    align-items: center;
+}
+
+#proftb{
+    font-size: larger;
+    height: 100%;
+    width: 100%;
+    font-family: "calibri";
+}
+
+.profile{
+    padding: 20;
+    background-color: white;
+    height: 100%;
+    width: 43%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+}
+
+.nameprof{
+    margin-left: 10;
+    width: 100%;
+}
+
+#proftb td:nth-child(odd){
+    width: 28%;
+}
+
+#imgedit{
+    height: 30;
+    margin-right: 10;
+}
+
+#imgedit:hover{
+    height: 40;
+}
+
+.titleprofbox{
+    display: flex;
+    justify-content: space-between;
+}
+
+.duebox{
+    display: flex;
+    width: 45%;
+    background-color: white;
+    align-items: center;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+}
+
+#dueimg{
+    height: 80;
+    background-color: #4ba4ba;
+}
+
+.righthome{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.billing{
+    position: relative;
+    width: 43%;
+    height: 100%;
+    padding: 20;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
+#paidimg{
+    height: 80;
+    background-color: #4ba4ba;
+}
+
+.paid{
+    display: flex;
+    width: 45%;
+    background-color: white;
+    align-items: center;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+}
+
+.fees{
+    margin-left: 10;
+}
+
+.paybox{
+    margin-left: 10;
+}
+
+.topbilling{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#balay{
+    height: 80;
+    background-color: #4ba4ba;
+}
+
+.balance-ay{
+    display: flex;
+    width: 45%;
+    height: 80;
+    background-color: white;
+    align-items: center;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+}
+
+.balbox{
+    margin-left: 10;
+}
+
+#balout{
+    height: 80;
+    background-color: #4ba4ba;
+}
+
+.balance-out{
+    display: flex;
+    align-items: center;
+    width: 45%;
+    height: 80;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+}
+
+.botbilling{
+    display: flex;
+    justify-content: space-between;
+}
+
+#view{
+    width: 34;
+    position: absolute;
+    right: 15;
+}
+
+#view:hover{
+    width: 40;
+}
+
+.billtop{
+    display: flex;
+}
+
+.wrapperhome{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+
+.wrappertitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20;
+}
+
+.profbil{
+    display: flex;
+    justify-content: space-evenly;
+    height: 33%;
+    width: 100%;
+    margin-top: 20;
+}
+
+.ubos{
+    margin-top: 119;
+    background-color: white;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    height: 100;
+    align-items: center;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+}
+
+.ubos button{
+    height: 50;
+    width: 150;
+    border: none;
+    border-radius: 10px;
+    background-color: #254e58;
+    color: white;
+}
+
+
+.repdiv{
+    height: 91;
+    width: 100%;
+    background-color: #fff;
+    top: 55%;
+    left: 0;
+    position: absolute;
+    box-shadow: 0 5px 10px rgba(255, 255, 255, 0.4);
+    transition: top 0.5s;
+    display: none;
+    /* border-radius: 6px; */
+    /* padding-bottom: 3px; */
+  }
+
+  .assessment{
+    height: 50%;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    /* border: 1px solid; */
+    
+  }
+
+  .report{
+    height: 50%;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    /* border: 1px solid; */
+  }
+
+  .repdiv a{
+    text-decoration: none;
+    font-family: "calibri";
+    margin-left: 48;
+    font-size: 18;
+  }
+
+  #repp{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }

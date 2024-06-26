@@ -1,0 +1,429 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.home{
+    width: 100%;
+    color: #fffbfb;
+}
+
+nav{
+    background: #112d32;
+    width: 100%;
+    padding: 5px 2%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.logo{
+    width: 60px;
+}
+.user-pic{
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+nav ul{
+    width: 100%;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    padding-left: 20px;
+    
+}
+
+h1 {
+    font-family: "Old English Text MT", cursive;
+  }
+
+nav ul p{
+    text-align: right;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.sub-menu-wrap{
+    position: absolute;
+    top: 100%;
+    right: 0%;
+    width: 250px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+
+.sub-menu-wrap.open-menu{
+max-height: 400px;
+}
+
+.sub-menu{
+    
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    margin: 10px;
+}
+
+.user-info{
+    display: flex;
+    align-items: center;
+}
+
+.user-info h3{
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.user-info img{
+    width: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.sub-menu hr{
+    border: 0;
+    height: 1px;
+    width: 100%;
+    background: #ccc;
+    margin: 15px 0 10px;
+}
+
+.sub-menu-link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #031715;
+    margin: 12px 0;
+}
+
+.sub-menu-link p{
+    width: 100%;
+}
+
+.sub-menu-link img{
+    width: 40px;
+    background: #e5e5e5;
+    border-radius: 50%;
+    padding: 8px;
+    margin-right: 15px;
+}
+
+.sub-menu-link{
+    font-size: 10px;
+    transition: 0.5s;
+}
+
+.sub-menu-link:hover span{
+    transform: translateX(5px);
+}
+
+.sub-menu-link:hover p{
+    font-weight: 600;
+}
+
+.user{
+    color: rgb(12, 8, 236);
+}
+
+
+
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: url("pic/bg.jpg");
+    background-size: cover;
+    display: flex;
+}
+
+
+.side-nav{
+    width: 250px;
+    height: 100vh;
+    background: #254e58;
+    position: relative;
+    top: 0;
+    left: 0;
+    padding: 20px 30px;
+}
+
+.nav-links{
+    color: #05386b;
+    list-style: none;
+    position: fixed;
+    margin-top: 100px;
+    
+}
+
+.nav-links li{
+    padding: 10px 0;
+    
+}
+
+.nav-links li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 14px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li a i{
+    font-size: 22px;
+    margin-right: 20px;
+}
+
+.active{
+    background: #fff;
+    width: 100%;
+    height: 47px;
+    position: absolute;
+    left: 0;
+    top: 2.6%;
+    z-index: -1;
+    border-radius: 6px;
+    box-shadow: 0 5px 10px rgba(255, 255, 255, 0.4);
+    display: none;
+    transition: top 0.5s;
+}
+
+.nav-links li:hover a{
+    color: #0d74f5;
+    transition: 0.3s;
+}
+
+.nav-links li:hover ~ .active{
+    display: block;
+}
+
+.nav-links li:nth-child(1):hover ~ .active{
+    top: 2.6%;
+}
+
+.nav-links li:nth-child(2):hover ~ .active{
+    top: 22%;
+}   
+
+.nav-links li:nth-child(3):hover ~ .active{
+    top: 42.0%;
+}
+
+.nav-links li:nth-child(4):hover ~ .active{
+    top: 62.0%;
+}
+
+.nav-links li:nth-child(5):hover ~ .active{
+    top: 82%;
+}
+
+
+.container{
+    position: fixed;
+    top: 35vh;
+    left: 30vw;
+    display: flex;
+    color: #4f4a41;
+    
+}
+
+
+
+.profile{
+    position: relative;
+    width: 250px;
+    height: 300px;
+    border-radius: 2%;
+    background: #97caef;
+    margin: 10px;
+    padding: 30px;
+    
+    text-align: center;
+    
+    
+    
+
+}
+
+
+.assessment{
+    width: 250px;
+    height: 300px;
+    background: #fcfce4;
+    box-shadow: #525252;
+    margin: 10px;
+    padding: 30px;
+    border-radius: 2%;
+    text-align: center;
+    
+    
+}
+
+
+
+
+.reports{
+    width: 250px;
+    height: 300px;
+    background: #8ee4af;
+    margin: 10px;
+    padding: 30px;
+    border-radius: 2%;
+    text-align: center;
+    
+    
+}
+
+
+.studprof{
+    position: relative;
+    top: 60px;
+    font-size: 25px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+
+}
+
+.assess{
+
+
+    position: relative;
+    
+    top: 60px;
+    font-size: 25px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+}
+.rep{
+    position: relative;
+   
+    top: 60px;
+    font-size: 25px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+}
+
+.time{
+    position: absolute;
+    top: 26px;
+    right: 5lh;
+
+}
+
+.pic-profile{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: -100px;
+    left: 30px;
+}
+
+
+.pic-profile2{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: -100px;
+    left: 300px;
+}
+
+
+.pic-profile3{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: -130px;
+    left: 550px;
+}
+
+.nameprof{
+    position: relative;
+    top: 69px;
+    font-size: 22px;
+    font-family: 'Bebas Neue', sans-serif;
+
+}
+
+.editprof{
+    
+    font-size: 12px;
+    color: #e5e5e5;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 0;
+    margin: 0 ;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.editprofbox{
+    position: absolute;
+    bottom: 8%;
+    left: 10%;
+    background-color: rgb(60, 62, 62);
+    width: 200px;
+    height: 30px;
+    border-radius: 5%;
+    padding-top: 5px;
+}
+
+
+.editprof:hover{
+    font-weight: 300;
+    color: #7ce250;
+}
+
+.ambot{
+    position: relative;
+    top: 82px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 26px;
+}
+
+.title{
+    position: relative;
+}
+
+
+.viewbillbox{
+    position: relative;
+    bottom: -41%;
+    left: 26%;
+    background-color: rgb(60, 62, 62);
+    width: 90px;
+    height: 30px;
+    border-radius: 5%;
+    padding-top: 5px;
+    color: #e5e5e5;
+}
+
+
+.viewbill{
+    
+    font-size: 12px;
+    color: #e5e5e5;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 0;
+    margin: 0 ;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+
+.viewbill:hover{
+    font-weight: 300;
+    color: #7ce250;
+}

@@ -1,0 +1,13 @@
+.containerrep{
+    display: flex;
+    width: 100%;
+}
+
+.leftrep{
+    width: 40%;
+}
+
+.rightrep{
+    width: 60%;
+    background-color: aqua;
+}

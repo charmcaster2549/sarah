@@ -1,0 +1,118 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.body2{
+    display: flex;
+    height: 100%;
+    padding: 20;
+    flex-direction: column;
+    align-items: center;
+}
+.asmt2{
+    /* background: #44daff;  */
+    display: flex;
+    flex-direction: column;
+    width: 560;
+    align-items: center;
+    position: relative;
+    border: solid;
+    padding-bottom: 37;
+
+}
+#h3{
+    font-family: "old english text mt";
+}
+
+#scc2{
+    width: 50;
+    position: absolute;
+    left: 102;
+    top: 48;
+}
+
+#sib2{
+    width: 50;
+    position: absolute;
+    right: 97;
+    top: 48;
+}
+
+#namebox{
+    align-self: flex-start;
+    margin-left: 20px;
+}
+
+#namebox td:nth-child(odd){
+    width: 100px;
+}
+
+#sumtb{
+    align-self: flex-start;
+    margin-left: 20;
+    text-align: left;
+    border-collapse: collapse;
+    margin-top: 10;
+}
+
+#sumtb td:nth-child(1),
+#sumtb td:nth-child(2){
+    width: 100;
+}
+
+#term{
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid;
+    width: 120px;
+    margin-left: 7;
+}
+
+.signature{
+    align-self: flex-start;
+    margin-top: 20;
+    margin-left: 20;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.access{
+    width: 30%;
+    height: 75;
+}
+
+.certified{
+    width: 60%;
+    height: 75;
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    width: 100;
+    height: 35;
+    margin-top: 50;
+}
+
+.infobox{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+#table{
+    width: 90%;
+    border-collapse: collapse;
+    margin-top: 20;
+}
+
+#thead{
+    background-color: #2A1B3D;
+    color: white;
+}
+
+#transreclist{
+    background-color: #dedede;
+}

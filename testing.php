@@ -1,0 +1,1 @@
+<img src="pic/user.svg" alt="picture" st>

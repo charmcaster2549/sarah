@@ -1,0 +1,230 @@
+body{
+    margin: 0;
+}
+
+.container{
+height: 100%;
+display: flex;
+flex-direction: column;
+}
+
+.top{
+/* background: antiquewhite; */
+text-align: center;
+padding: 10px;
+}
+.bot{
+    background: white;
+    height: 100%;
+}
+
+.namearea{
+    display: flex;
+    height: 17%;
+    padding: 20px;
+    align-items: center;
+    
+}
+
+.namearea div{
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    background: lightgray;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    justify-content: center;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.namearea label{
+    margin: 10px;
+}
+
+.resibo{
+    height: 50%;
+    padding: 20px;
+    background: #123c69;
+    margin: 0 20px;
+    display: flex;
+}
+
+.buttons{
+    background: chartreuse;
+}
+
+input{
+    font-size: 22px;
+    height: 45px;
+    width: 95%;
+}
+
+.resibotb{
+    font-size: 18px;
+    font-family: monospace;
+    width: 100%;
+    padding: 20px 0;
+    color: #eee2dc;
+}
+
+.search{
+    /* margin: 0;
+    width: 95%;
+    height: 37;
+    background: white;
+    border: 0 solid gray;
+    padding-left: 10px; */
+}
+
+.searchdiv{
+    height: 100px;
+    background: white;
+    display:  flex;
+    padding: 20px;
+}
+
+.searchbar{
+    width: 40%;
+    background: #123c69;
+    height: 86px;
+    padding: 0 20px;
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,.7);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.labelsearch{
+    font-size: 20;
+    font-family: monospace;
+    font-weight: bold;
+    margin-right: 12px;
+}
+
+.name{
+    width: 60%;
+    background: #123c69;
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,.7);
+    height: 86%;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    color: white;
+}
+
+.form{
+    margin: 0;
+    position: relative;
+    top: 25px
+}
+
+.resiboform{
+    margin: 0;
+    height: 79%;
+    width: 100%;
+}
+
+td{
+    padding: 10px;
+}
+
+.addbayad{
+    display: flex;
+    width: 50%;
+    height: 292px;
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.3);
+
+
+}
+
+.submit{
+    width: 75px;
+    height: 32px;
+    position: relative;
+}
+
+
+.formsearch{
+    margin: 0;
+}
+
+#results{
+    height: 100;
+    width: 65%;
+    background: white;
+    /* position: relative;
+    left: 79px; */
+    display: none;
+}
+
+.error{
+    background: #f2dede;
+    color: red;
+    padding: 10px;
+    width: 27%;
+    border-radius: 2px;
+    margin: 10px auto;
+    font-family: sans-serif;
+    font-size: 13;
+    text-align: center;
+}
+
+.total{
+    
+    color: azure;
+    width: 87%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.resibogroup{
+    display: flex; 
+    flex-direction: column; 
+    width: 48%; 
+    margin-left: 20px; 
+    align-items: center;
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.3);
+} 
+
+.listsabayad{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 200px; /* Adjust the height as needed */
+    overflow: hidden;
+    padding: 10px;
+    /* margin-left: 20px; */
+    position: relative;
+}
+
+.sudlanan{
+    background: #888;
+    width: 100%;
+    display: none;
+    
+}
+
+.listsabayad div{
+    overflow: auto;
+}
+
+/* Customize the scrollbar */
+.listsabayad div::-webkit-scrollbar {
+    width: 5px; /* Adjust the width of the scrollbar */
+  }
+
+  .listsabayad div::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Adjust the background color of the track */
+  }
+
+  .listsabayad div::-webkit-scrollbar-thumb {
+    background: #888; /* Adjust the color of the thumb */
+  }
+
+  .listsabayad div::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Adjust the color of the thumb on hover */
+  }

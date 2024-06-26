@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    /* background-color: aquamarine; */
+    background: linear-gradient(to right, #ffcc00, #ff6633);
+}
+
+/* linear-gradient(to right, #ffcc00, #ff6633) */
+
+.header{
+    height: 12%;
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bot{
+    height: 88%;
+    width: 100%;
+    /* background-color: blueviolet; */
+    display: flex;
+}
+
+.sidenav{
+    width: 25%;
+    height: 100%;
+    /* background-color: brown; */
+}
+
+.right{
+    width: 75%;
+    height: 100%;
+    /* background-color: cadetblue ; */
+
+}
+
+
+
+.logo{
+    width: 60px; 
+}
+
+
+.user-pic{
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+
+
+.scc {
+    font-family: "Old English Text MT", cursive; 
+  }
+  
+.user-pic{
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+
+.sub-menu-wrap{
+    position: absolute;
+    top: 100%;
+    right: 0%;
+    width: 250px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+
+.sub-menu-wrap.open-menu{
+max-height: 400px;
+}
+
+
+.time-pic{
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.logo-scc{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+
+xxxx
+
+
